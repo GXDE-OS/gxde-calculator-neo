@@ -47,7 +47,7 @@ isEmpty(APPDIR):APPDIR=/usr/share/applications
 
 target.path = $$INSTROOT$$BINDIR
 desktop.path = $$INSTROOT$$APPDIR
-desktop.files = RCalc.desktop
+desktop.files = gxde-calculator.desktop
 
 INSTALLS += target desktop
 TRANSLATIONS += translations/zh_CN.ts

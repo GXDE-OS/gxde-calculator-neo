@@ -8,20 +8,20 @@ DWIDGET_USE_NAMESPACE
 
 int main(int argc, char *argv[])
 {
-    //qputenv("QT_SCALE_FACTOR", "1.3");
+    //qputenv("QT_SCALE_FACTOR", "1.25");
 
     DApplication::loadDXcbPlugin();
     DApplication app(argc, argv);
 
-    const QString descriptionText = QApplication::tr("rekols calculator is a powerful calculator, beautiful and easy to use.");
-    const QString acknowledgementLink = "https://github.com/rekols";
+    const QString descriptionText = QApplication::tr("GXDE Calculator is a powerful calculator, beautiful and easy to use.");
+    const QString acknowledgementLink = "https://gitee.com/GXDE-OS/gxde-calculator-rebirth/";
 
-    if (app.setSingleInstance("RCalc")) {
-        app.setApplicationVersion("0.1");
-        app.setProductIcon(QPixmap::fromImage(QImage(":/image/icon.svg").scaled(80, 80)));
+    if (app.setSingleInstance("gxde-calculator")) {
+        app.setApplicationVersion("1.1");
+        app.setProductIcon(QIcon::fromTheme("gxde-calculator"));
         app.setApplicationDescription(descriptionText + "\n");
         app.setApplicationAcknowledgementPage(acknowledgementLink);
-        app.setWindowIcon(QIcon(":/image/icon.svg"));
+        app.setWindowIcon(QIcon::fromTheme("gxde-calculator"));
         app.loadTranslator();
 
         QLocale locale;

@@ -5,13 +5,13 @@
 QT += core widgets gui svg
 
 TEMPLATE = app
-TARGET = RCalc
+TARGET = gxde-calculator
 INCLUDEPATH += .
 
 CONFIG += link_pkgconfig c++
 PKGCONFIG += dtkwidget
 
-RESOURCES = RCalc.qrc
+RESOURCES = gxde-calculator.qrc
 
 include(common.pri)
 

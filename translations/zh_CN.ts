@@ -1511,8 +1511,8 @@
 <context>
     <name>QApplication</name>
     <message>
-        <source>rekols calculator is a powerful calculator, beautiful and easy to use.</source>
-        <translation>rekols计算器是一个强大的计算器，美观，易于使用</translation>
+        <source>GXDE Calculator is a powerful calculator, beautiful and easy to use.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

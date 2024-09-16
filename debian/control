@@ -1,12 +1,13 @@
-Source: rekols-calculator
+Source: gxde-calculator
 Section: base
 Priority: optional
-Maintainer: rekols <rekols@foxmail.com>
-Build-Depends: debhelper (>= 9), pkg-config, qt5-default, dpkg-dev, qt5-qmake, qtbase5-dev, libdtkbase-dev, libdtkwidget-dev, libdtkutil-dev
+Maintainer: shenmo <shenmo@spark-app.store>
+Build-Depends: debhelper (>= 9), pkg-config, dpkg-dev, qt5-qmake, qtbase5-dev, libdtkwidget2-dev
 Standards-Version: 0.1
 Homepage: https://github.com/rekols
 
-Package: rekols-calculator
+Package: gxde-calculator
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: A simple calculator for deepin.
+Description: A simple calculator for GXDE.
+

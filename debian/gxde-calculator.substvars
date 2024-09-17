@@ -1,3 +1,0 @@
-shlibs:Depends=libc6 (>= 2.34), libdtkcore2 (>= 15.11~2.2.2), libdtkwidget2 (>= 15.11~2.2.5.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.2.1)
-misc:Depends=
-misc:Pre-Depends=

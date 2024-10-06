@@ -2,7 +2,7 @@ Source: gxde-calculator
 Section: base
 Priority: optional
 Maintainer: shenmo <shenmo@spark-app.store>
-Build-Depends: debhelper (>= 9), pkg-config, dpkg-dev, qt5-qmake, qtbase5-dev, libdtkwidget2-dev
+Build-Depends: debhelper (>= 9), pkg-config, dpkg-dev, qt5-qmake,  qt5-default | qtchooser, qtbase5-dev, libdtkwidget2-dev
 Standards-Version: 0.1
 Homepage: https://github.com/rekols
 
